@@ -1,3 +1,12 @@
+# BarDeCoder
+
+Simple proof of concept for the app which
+
+* scans product bar code
+* detects country origin of the product
+
+## Default instruction
+
 This is a Kotlin Multiplatform project targeting Android, iOS.
 
 * `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
