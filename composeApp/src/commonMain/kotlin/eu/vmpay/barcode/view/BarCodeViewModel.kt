@@ -29,4 +29,8 @@ class BarCodeViewModel(
             }
         }
     }
+
+    fun onCameraClick() {
+        _uiState.update { BarCodeUiState.Recognise }
+    }
 }

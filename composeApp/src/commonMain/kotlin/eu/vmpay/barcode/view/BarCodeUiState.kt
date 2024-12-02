@@ -6,6 +6,6 @@ sealed class BarCodeUiState {
         val input: String,
         val output: String,
     ) : BarCodeUiState()
-
     data class NotFoundError(val input: String) : BarCodeUiState()
+    data object Recognise : BarCodeUiState()
 }
