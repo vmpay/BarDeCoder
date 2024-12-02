@@ -195,7 +195,7 @@ val countryMap = mapOf(
     "380" to ("Bulgaria" to "\uD83C\uDDE7\uD83C\uDDEC"),
     "383" to ("Slovenia" to "\uD83C\uDDF8\uD83C\uDDEE"),
     "385" to ("Croatia" to "\uD83C\uDDED\uD83C\uDDF7"),
-    "387" to ("Bosnia and Herzegovina" to "\uD83C\uDDEE\uD83C\uDDF6"),
+    "387" to ("Bosnia and Herzegovina" to "\uD83C\uDDE7\uD83C\uDDE6"),
     "389" to ("Montenegro" to "\uD83C\uDDF2\uD83C\uDDEA"),
 
     "400" to ("Germany" to "\uD83C\uDDE9\uD83C\uDDEA"),   // Germany 🇩🇪
@@ -268,17 +268,17 @@ val countryMap = mapOf(
     "475" to ("Latvia" to "\uD83C\uDDF1\uD83C\uDDFB"),
     "476" to ("Azerbaijan" to "\uD83C\uDDE6\uD83C\uDDFF"),
     "477" to ("Lithuania" to "\uD83C\uDDF1\uD83C\uDDF9"),
-    "478" to ("Uzbekistan" to "\uD83C\uDDF8\uD83C\uDDFF"),
+    "478" to ("Uzbekistan" to "\uD83C\uDDFA\uD83C\uDDFF"),
     "479" to ("Sri Lanka" to "\uD83C\uDDF1\uD83C\uDDF0"),
-    "480" to ("Philippines" to "\uD83C\uDDF5\uD83C\uDDF8"),
+    "480" to ("Philippines" to "\uD83C\uDDF5\uD83C\uDDED"),
     "481" to ("Belarus" to "\uD83C\uDDE7\uD83C\uDDFE"),
-    "482" to ("Ukraine" to "\uD83C\uDDE6\uD83C\uDDFA"),
-    "483" to ("Turkmenistan" to "\uD83C\uDDF9\uD83C\uDDFF"),
-    "484" to ("Moldova" to "\uD83C\uDDF2\uD83C\uDDED"),
-    "485" to ("Armenia" to "\uD83C\uDDE6\uD83C\uDDFF"),
+    "482" to ("Ukraine" to "\uD83C\uDDFA\uD83C\uDDE6"),
+    "483" to ("Turkmenistan" to "\uD83C\uDDF9\uD83C\uDDF2"),
+    "484" to ("Moldova" to "\uD83C\uDDF2\uD83C\uDDE9"),
+    "485" to ("Armenia" to "\uD83C\uDDE6\uD83C\uDDF2"),
     "486" to ("Georgia" to "\uD83C\uDDEC\uD83C\uDDEA"),
     "487" to ("Kazakhstan" to "\uD83C\uDDF0\uD83C\uDDFF"),
-    "488" to ("Tajikistan" to "\uD83C\uDDF9\uD83C\uDDFF"),
+    "488" to ("Tajikistan" to "\uD83C\uDDF9\uD83C\uDDEF"),
     "489" to ("Hong Kong" to "\uD83C\uDDED\uD83C\uDDF0"),
     "490" to ("Japan" to "\uD83C\uDDEF\uD83C\uDDF5"), // Japan (original Japanese Article Number range)
     "491" to ("Japan" to "\uD83C\uDDEF\uD83C\uDDF5"),
@@ -300,13 +300,13 @@ val countryMap = mapOf(
     "507" to ("United Kingdom" to "\uD83C\uDDEC\uD83C\uDDE7"),
     "508" to ("United Kingdom" to "\uD83C\uDDEC\uD83C\uDDE7"),
     "509" to ("United Kingdom" to "\uD83C\uDDEC\uD83C\uDDE7"),
-    "520" to ("Greece" to "\uD83C\uDDEC\uD83C\uDDE7"), // Greece
-    "521" to ("Greece" to "\uD83C\uDDEC\uD83C\uDDE7"),
-    "528" to ("Lebanon" to "\uD83C\uDDF1\uD83C\uDDEC"), // Lebanon
-    "529" to ("Cyprus" to "\uD83C\uDDE8\uD83C\uDDED"), // Cyprus
+    "520" to ("Greece" to "\uD83C\uDDEC\uD83C\uDDF7"), // Greece
+    "521" to ("Greece" to "\uD83C\uDDEC\uD83C\uDDF7"),
+    "528" to ("Lebanon" to "\uD83C\uDDF1\uD83C\uDDE7"), // Lebanon
+    "529" to ("Cyprus" to "\uD83C\uDDE8\uD83C\uDDFE"), // Cyprus
     "530" to ("Albania" to "\uD83C\uDDE6\uD83C\uDDF1"), // Albania
     "531" to ("North Macedonia" to "\uD83C\uDDF2\uD83C\uDDF0"), // North Macedonia
-    "535" to ("Malta" to "\uD83C\uDDF2\uD83C\uDDF8"), // Malta
+    "535" to ("Malta" to "\uD83C\uDDF2\uD83C\uDDF9"), // Malta
     "539" to ("Ireland" to "\uD83C\uDDEE\uD83C\uDDEA"), // Ireland
     "540" to ("Belgium" to "\uD83C\uDDE7\uD83C\uDDEA"), // Belgium
     "541" to ("Belgium" to "\uD83C\uDDE7\uD83C\uDDEA"),
@@ -330,37 +330,37 @@ val countryMap = mapOf(
     "577" to ("Denmark" to "\uD83C\uDDE9\uD83C\uDDF0"),
     "578" to ("Denmark" to "\uD83C\uDDE9\uD83C\uDDF0"),
     "579" to ("Denmark" to "\uD83C\uDDE9\uD83C\uDDF0"),
-    "590" to ("Poland" to "\uD83C\uDDF5\uD83C\uDDF0"), // Poland
+    "590" to ("Poland" to "\uD83C\uDDF5\uD83C\uDDF1"), // Poland
     "594" to ("Romania" to "\uD83C\uDDF7\uD83C\uDDF4"), // Romania
     "599" to ("Hungary" to "\uD83C\uDDED\uD83C\uDDFA"), // Hungary
-    "600" to ("South Africa" to "\uD83C\uDDE7\uD83C\uDDFF"), // South Africa
-    "601" to ("South Africa" to "\uD83C\uDDE7\uD83C\uDDFF"),
+    "600" to ("South Africa" to "\uD83C\uDDFF\uD83C\uDDE6"), // South Africa
+    "601" to ("South Africa" to "\uD83C\uDDFF\uD83C\uDDE6"),
     "603" to ("Ghana" to "\uD83C\uDDEC\uD83C\uDDED"), // Ghana
-    "604" to ("Senegal" to "\uD83C\uDDF8\uD83C\uDDEC"), // Senegal
-    "605" to ("Uganda" to "\uD83C\uDDFE\uD83C\uDDF9"), // Uganda
+    "604" to ("Senegal" to "\uD83C\uDDF8\uD83C\uDDF3"), // Senegal
+    "605" to ("Uganda" to "\uD83C\uDDFA\uD83C\uDDEC"), // Uganda
     "606" to ("Angola" to "\uD83C\uDDE6\uD83C\uDDF4"), // Angola
     "607" to ("Oman" to "\uD83C\uDDF4\uD83C\uDDF2"), // Oman
-    "608" to ("Bahrain" to "\uD83C\uDDED\uD83C\uDDE7"), // Bahrain
-    "609" to ("Mauritius" to "\uD83C\uDDF2\uD83C\uDDF8"), // Mauritius
-    "611" to ("Morocco" to "\uD83C\uDDF2\uD83C\uDDC6"), // Morocco
+    "608" to ("Bahrain" to "\uD83C\uDDE7\uD83C\uDDED"), // Bahrain
+    "609" to ("Mauritius" to "\uD83C\uDDF2\uD83C\uDDFA"), // Mauritius
+    "611" to ("Morocco" to "\uD83C\uDDF2\uD83C\uDDE6"), // Morocco
     "613" to ("Algeria" to "\uD83C\uDDE9\uD83C\uDDFF"), // Algeria
     "615" to ("Nigeria" to "\uD83C\uDDF3\uD83C\uDDEC"), // Nigeria
-    "616" to ("Kenya" to "\uD83C\uDDF0\uD83C\uDDEC"), // Kenya
+    "616" to ("Kenya" to "\uD83C\uDDF0\uD83C\uDDEA"), // Kenya
     "617" to ("Cameroon" to "\uD83C\uDDE8\uD83C\uDDF2"), // Cameroon
-    "618" to ("Ivory Coast" to "\uD83C\uDDEE\uD83C\uDDEF"), // Ivory Coast
+    "618" to ("Ivory Coast" to "\uD83C\uDDE8\uD83C\uDDEE"), // Ivory Coast
     "619" to ("Tunisia" to "\uD83C\uDDF9\uD83C\uDDF3"), // Tunisia
-    "620" to ("Tanzania" to "\uD83C\uDDF9\uD83C\uDDFC"), // Tanzania
-    "621" to ("Syria" to "\uD83C\uDDF8\uD83C\uDDEA"), // Syria
-    "622" to ("Egypt" to "\uD83C\uDDE8\uD83C\uDDF3"), // Egypt
-    "624" to ("Libya" to "\uD83C\uDDF1\uD83C\uDDE6"), // Libya
+    "620" to ("Tanzania" to "\uD83C\uDDF9\uD83C\uDDFF"), // Tanzania
+    "621" to ("Syria" to "\uD83C\uDDF8\uD83C\uDDFE"), // Syria
+    "622" to ("Egypt" to "\uD83C\uDDEA\uD83C\uDDEC"), // Egypt
+    "624" to ("Libya" to "\uD83C\uDDF1\uD83C\uDDFE"), // Libya
     "625" to ("Jordan" to "\uD83C\uDDEF\uD83C\uDDEA"), // Jordan
     "626" to ("Iran" to "\uD83C\uDDEE\uD83C\uDDF7"), // Iran
     "627" to ("Kuwait" to "\uD83C\uDDF0\uD83C\uDDFC"), // Kuwait
-    "628" to ("Saudi Arabia" to "\uD83C\uDDE8\uD83C\uDDF4"), // Saudi Arabia
+    "628" to ("Saudi Arabia" to "\uD83C\uDDF8\uD83C\uDDE6"), // Saudi Arabia
     "629" to ("United Arab Emirates" to "\uD83C\uDDE6\uD83C\uDDEA"), // United Arab Emirates
-    "630" to ("Qatar" to "\uD83C\uDDF6\uD83C\uDDFC"), // Qatar
-    "631" to ("Namibia" to "\uD83C\uDDF3\uD83C\uDDF2"), // Namibia
-    "632" to ("Rwanda" to "\uD83C\uDDFC\uD83C"), // Rwanda
+    "630" to ("Qatar" to "\uD83C\uDDF6\uD83C\uDDE6"), // Qatar
+    "631" to ("Namibia" to "\uD83C\uDDF3\uD83C\uDDE6"), // Namibia
+    "632" to ("Rwanda" to "\uD83C\uDDF7\uD83C\uDDFC"), // Rwanda
     "640" to ("Finland" to "\uD83C\uDDEB\uD83C\uDDEE"), // Finland
     "641" to ("Finland" to "\uD83C\uDDEB\uD83C\uDDEE"),
     "642" to ("Finland" to "\uD83C\uDDEB\uD83C\uDDEE"),
@@ -403,30 +403,30 @@ val countryMap = mapOf(
     "737" to ("Sweden" to "\uD83C\uDDF8\uD83C\uDDEA"),
     "738" to ("Sweden" to "\uD83C\uDDF8\uD83C\uDDEA"),
     "739" to ("Sweden" to "\uD83C\uDDF8\uD83C\uDDEA"),
-    "740" to ("Guatemala" to "\uD83C\uDDEC\uD83C\uDDE9"), // Guatemala
-    "741" to ("El Salvador" to "\uD83C\uDDEA\uD83C\uDDF8"), // El Salvador
-    "742" to ("Honduras" to "\uD83C\uDDFD\uD83C\uDDE8"), // Honduras
-    "743" to ("Nicaragua" to "\uD83C\uDDF3\uD83C\uDDEA"), // Nicaragua
-    "744" to ("Costa Rica" to "\uD83C\uDCCF\uD83C\uDDE8"), // Costa Rica
-    "745" to ("Panama" to "\uD83C\uDDF5\uD83C\uDDF0"), // Panama
-    "746" to ("Dominican Republic" to "\uD83C\uDDF0\uD83C\uDDE7"), // Dominican Republic
+    "740" to ("Guatemala" to "\uD83C\uDDEC\uD83C\uDDF9"), // Guatemala
+    "741" to ("El Salvador" to "\uD83C\uDDF8\uD83C\uDDFB"), // El Salvador
+    "742" to ("Honduras" to "\uD83C\uDDED\uD83C\uDDF3"), // Honduras
+    "743" to ("Nicaragua" to "\uD83C\uDDF3\uD83C\uDDEE"), // Nicaragua
+    "744" to ("Costa Rica" to "\uD83C\uDDE8\uD83C\uDDF7"), // Costa Rica
+    "745" to ("Panama" to "\uD83C\uDDF5\uD83C\uDDE6"), // Panama
+    "746" to ("Dominican Republic" to "\uD83C\uDDE9\uD83C\uDDF4"), // Dominican Republic
     "750" to ("Mexico" to "\uD83C\uDDF2\uD83C\uDDFD"), // Mexico
     "754" to ("Canada" to "\uD83C\uDDE8\uD83C\uDDE6"), // Canada
     "755" to ("Canada" to "\uD83C\uDDE8\uD83C\uDDE6"),
     "759" to ("Venezuela" to "\uD83C\uDDFB\uD83C\uDDEA"), // Venezuela
-    "760" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"), // Switzerland
-    "761" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "762" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "763" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "764" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "765" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "766" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "767" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "768" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "769" to ("Switzerland" to "\uD83C\uDDED\uD83C\uDDF8"),
-    "770" to ("Colombia" to "\uD83C\uDDF0\uD83C\uDDF8"), // Colombia
-    "771" to ("Colombia" to "\uD83C\uDDF0\uD83C\uDDF8"),
-    "773" to ("Uruguay" to "\uD83C\uDDFA\uD83C\uDDF8"), // Uruguay
+    "760" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"), // Switzerland
+    "761" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "762" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "763" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "764" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "765" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "766" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "767" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "768" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "769" to ("Switzerland" to "\uD83C\uDDE8\uD83C\uDDED"),
+    "770" to ("Colombia" to "\uD83C\uDDE8\uD83C\uDDF4"), // Colombia
+    "771" to ("Colombia" to "\uD83C\uDDE8\uD83C\uDDF4"),
+    "773" to ("Uruguay" to "\uD83C\uDDFA\uD83C\uDDFE"), // Uruguay
     "775" to ("Peru" to "\uD83C\uDDF5\uD83C\uDDEA"), // Peru
     "777" to ("Bolivia" to "\uD83C\uDDE7\uD83C\uDDF4"), // Bolivia
     "778" to ("Argentina" to "\uD83C\uDDE6\uD83C\uDDF7"), // Argentina
@@ -486,11 +486,11 @@ val countryMap = mapOf(
     "847" to ("Spain" to "\uD83C\uDDEA\uD83C\uDDF8"),
     "848" to ("Spain" to "\uD83C\uDDEA\uD83C\uDDF8"),
     "849" to ("Spain" to "\uD83C\uDDEA\uD83C\uDDF8"),
-    "850" to ("Cuba" to "\uD83C\uDDED\uD83C\uDDFA"), // Cuba
+    "850" to ("Cuba" to "\uD83C\uDDE8\uD83C\uDDFA"), // Cuba
     "858" to ("Slovakia" to "\uD83C\uDDF8\uD83C\uDDF0"), // Slovakia
     "859" to ("Czech Republic" to "\uD83C\uDDE8\uD83C\uDDFF"), // Czech Republic
-    "860" to ("Serbia" to "\uD83C\uDDF7\uD83C\uDDEC"), // Serbia
-    "865" to ("Mongolia" to "\uD83C\uDDF2\uD83C\uDDF0"), // Mongolia
+    "860" to ("Serbia" to "\uD83C\uDDF7\uD83C\uDDF8"), // Serbia
+    "865" to ("Mongolia" to "\uD83C\uDDF2\uD83C\uDDF3"), // Mongolia
     "867" to ("North Korea" to "\uD83C\uDDF0\uD83C\uDDF5"), // North Korea
     "868" to ("Turkey" to "\uD83C\uDDF9\uD83C\uDDF7"), // Turkey
     "869" to ("Turkey" to "\uD83C\uDDF9\uD83C\uDDF7"),
@@ -507,7 +507,7 @@ val countryMap = mapOf(
     "880" to ("South Korea" to "\uD83C\uDDF0\uD83C\uDDF7"), // South Korea
     "881" to ("South Korea" to "\uD83C\uDDF0\uD83C\uDDF7"),
     "883" to ("Myanmar" to "\uD83C\uDDF2\uD83C\uDDF2"), // Myanmar
-    "884" to ("Cambodia" to "\uD83C\uDDED\uD83C\uDDF2"), // Cambodia
+    "884" to ("Cambodia" to "\uD83C\uDDF0\uD83C\uDDED"), // Cambodia
     "885" to ("Thailand" to "\uD83C\uDDF9\uD83C\uDDED"), // Thailand
     "888" to ("Singapore" to "\uD83C\uDDF8\uD83C\uDDEC"), // Singapore
     "890" to ("India" to "\uD83C\uDDEE\uD83C\uDDF3"), // India
@@ -534,26 +534,26 @@ val countryMap = mapOf(
     "917" to ("Austria" to "\uD83C\uDDE6\uD83C\uDDF9"),
     "918" to ("Austria" to "\uD83C\uDDE6\uD83C\uDDF9"),
     "919" to ("Austria" to "\uD83C\uDDE6\uD83C\uDDF9"),
-    "930" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"), // Australia
-    "931" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "932" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "933" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "934" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "935" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "936" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "937" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "938" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "939" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDF7"),
-    "940" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"), // New Zealand
-    "941" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "942" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "943" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "944" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "945" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "946" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "947" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "948" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "949" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDE8"),
-    "955" to ("Malaysia" to "\uD83C\uDDF2\uD83C\uDDF8"), // Malaysia
-    "958" to ("Macau" to "\uD83C\uDDF2\uD83C\uDDF0"), // Macau
+    "930" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"), // Australia
+    "931" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "932" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "933" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "934" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "935" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "936" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "937" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "938" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "939" to ("Australia" to "\uD83C\uDDE6\uD83C\uDDFA"),
+    "940" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"), // New Zealand
+    "941" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "942" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "943" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "944" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "945" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "946" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "947" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "948" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "949" to ("New Zealand" to "\uD83C\uDDF3\uD83C\uDDFF"),
+    "955" to ("Malaysia" to "\uD83C\uDDF2\uD83C\uDDFE"), // Malaysia
+    "958" to ("Macau" to "\uD83C\uDDF2\uD83C\uDDF4"), // Macau
 )

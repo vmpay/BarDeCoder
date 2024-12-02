@@ -22,7 +22,7 @@ class BarCodeViewModel(
                     ?.let {
                         BarCodeUiState.Success(
                             input = sanitizedInput,
-                            output = it.toString(),
+                            output = "${it.first}\n\n\n${it.second}",
                         )
                     }
                     ?: BarCodeUiState.NotFoundError(sanitizedInput)
