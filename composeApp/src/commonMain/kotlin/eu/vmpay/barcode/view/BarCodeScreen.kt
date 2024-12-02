@@ -13,7 +13,7 @@ import androidx.compose.ui.text.input.KeyboardType
 
 @Composable
 fun BarCodeScreen(
-    viewModel: BarCodeViewModel,// = BarCodeViewModel(countryMap = countryMap),
+    viewModel: BarCodeViewModel,
 ) {
     val uiState by viewModel.uiState.collectAsState()
     BarCodeScreen(
@@ -27,25 +27,16 @@ private fun BarCodeScreen(
     uiState: BarCodeUiState,
     onValueChange: (String) -> Unit,
 ) {
-    when (uiState) {
-        is BarCodeUiState.Initial -> BarCodeView(
-            inputCode = uiState.input,
-            onValueChange = onValueChange,
-        )
-
-        is BarCodeUiState.NotFoundError -> BarCodeView(
-            inputCode = uiState.input,
-            country = "Not found",
-            onValueChange = onValueChange,
-        )
-
-        is BarCodeUiState.Success -> BarCodeView(
-            inputCode = uiState.input,
-            country = uiState.output,
-            onValueChange = onValueChange,
-        )
+    val (input, country) = when (uiState) {
+        is BarCodeUiState.Initial -> uiState.input to ""
+        is BarCodeUiState.NotFoundError -> uiState.input to "Not Found"
+        is BarCodeUiState.Success -> uiState.input to uiState.output
     }
-
+    BarCodeView(
+        inputCode = input,
+        country = country,
+        onValueChange = onValueChange,
+    )
 }
 
 @Composable
