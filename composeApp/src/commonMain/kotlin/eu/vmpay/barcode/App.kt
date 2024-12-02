@@ -1,20 +1,10 @@
 package eu.vmpay.barcode
 
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
-import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
-import androidx.compose.ui.Modifier
-import org.jetbrains.compose.resources.painterResource
+import androidx.compose.runtime.Composable
+import eu.vmpay.barcode.view.BarCodeScreen
+import eu.vmpay.barcode.view.BarCodeViewModel
 import org.jetbrains.compose.ui.tooling.preview.Preview
-
-import bardecoder.composeapp.generated.resources.Res
-import bardecoder.composeapp.generated.resources.compose_multiplatform
 
 @Composable
 @Preview
@@ -33,6 +23,7 @@ fun App() {
 //                }
 //            }
 //        }
-        BarCodeScreen()
+        val viewModel = BarCodeViewModel(countryMap = countryMap)
+        BarCodeScreen(viewModel = viewModel)
     }
 }
